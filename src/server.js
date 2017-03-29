@@ -7,8 +7,8 @@ const app = new Koa();
 
 app.use(ctx => {
   ctx.body = {
-    copresentation: copresentationEndpoint,
-    iiifi: iiifiEndpoint
+    version: '2.1',
+    documentation: 'http://iiif.io/api/presentation/2.1/'
   };
 });
 
