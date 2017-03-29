@@ -1,0 +1,6 @@
+version: "3"
+
+services:
+  iiifp:
+    image: iiifp:latest
+    command: yarn run start

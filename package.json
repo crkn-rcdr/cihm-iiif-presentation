@@ -2,10 +2,18 @@
   "name": "cihm-iiif-presentation",
   "version": "1.0.0",
   "description": "Web service providing IIIF Presentation API v2.1 for Canadiana content",
-  "main": "server.js",
+  "main": "src/server.js",
   "author": "Sascha Adler <sascha.adler@canadiana.ca>",
   "license": "MIT",
+  "scripts": {
+    "start": "node .",
+    "dev": "./node_modules/nodemon/bin/nodemon.js -w src -e js -x 'npm start'"
+  },
   "dependencies": {
-    "koa": "^2.2.0"
+    "koa": "^2.2.0",
+    "require-env": "^0.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
   }
 }

@@ -2,17 +2,16 @@ FROM node:7.7
 
 ENV HOME=/home/node
 
-COPY package.json $HOME/iiifp/
+COPY package.json $HOME/app/
 RUN chown -R node:node $HOME/*
 
 USER node
-WORKDIR $HOME/iiifp
+WORKDIR $HOME/app/
 RUN yarn install
 
 USER root
-COPY . $HOME/iiifp/
+COPY . $HOME/app/
 RUN chown -R node:node $HOME/*
-user node
+USER node
 
 EXPOSE 3000
-CMD ["yarn","run","start"]
