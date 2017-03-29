@@ -18,6 +18,6 @@ You will need to create a `docker-compose.override.yml` file with machine-specif
       ports:
         - "3000:3000"
       volumes:
-        - ./src:/home/node/app/src
+        - ./src:/home/node/iiifp/src
 
 Note that the two endpoint environment variables are required for the server to run.

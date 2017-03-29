@@ -1,17 +1,17 @@
-FROM node:7.7
+FROM node:7.7-alpine
 
 ENV HOME=/home/node
+WORKDIR $HOME/iiifp/
 
-COPY package.json $HOME/app/
-RUN chown -R node:node $HOME/*
+COPY package.json .
+RUN chown -R node:node .
 
 USER node
-WORKDIR $HOME/app/
 RUN yarn install
 
 USER root
-COPY . $HOME/app/
-RUN chown -R node:node $HOME/*
-USER node
+COPY . .
+RUN chown -R node:node .
 
+USER node
 EXPOSE 3000
