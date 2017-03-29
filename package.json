@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "start": "node .",
-    "dev": "./node_modules/nodemon/bin/nodemon.js -w src -e js -x 'npm start'"
+    "dev": "./node_modules/nodemon/bin/nodemon.js -w src -e js -x 'yarn run start'"
   },
   "dependencies": {
     "koa": "^2.2.0",
