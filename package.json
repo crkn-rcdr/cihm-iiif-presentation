@@ -7,15 +7,22 @@
   "license": "MIT",
   "scripts": {
     "start": "node .",
-    "dev": "./node_modules/nodemon/bin/nodemon.js -w src -e js -x 'yarn run start'"
+    "dev": "./node_modules/nodemon/bin/nodemon.js -w src -e js -x 'yarn run start'",
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "node"
   },
   "dependencies": {
     "koa": "^2.2.0",
     "koa-json-error": "^3.1.2",
     "koa-route": "^3.2.0",
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.3",
     "require-env": "^0.1.0"
   },
   "devDependencies": {
+    "jest": "^19.0.2",
     "nodemon": "^1.11.0"
   }
 }
