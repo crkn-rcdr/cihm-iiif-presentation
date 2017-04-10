@@ -8,7 +8,8 @@
   "scripts": {
     "start": "node .",
     "dev": "./node_modules/nodemon/bin/nodemon.js -w src -e js -x 'yarn run start'",
-    "test": "jest"
+    "test": "jest",
+    "testwatch": "./node_modules/nodemon/bin/nodemon.js -w src -e js -x 'yarn run test'"
   },
   "jest": {
     "testEnvironment": "node"
