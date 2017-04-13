@@ -1,0 +1,133 @@
+{
+  "_id": "oocihm.8_04178_69",
+  "_rev": "10-10b4e83d9cbae011f9af02ed827bcf39",
+  "canonicalUri": "http://eco.canadiana.ca/view/oocihm.8_04178_69",
+  "type": "document",
+  "seq": "69",
+  "label": "[Vol. 6, no. 9 (Sept. 1881)]",
+  "lang": [
+    "eng"
+  ],
+  "identifier": [
+    "8_04178_69"
+  ],
+  "collection": [
+    "eco",
+    "hmd",
+    "online",
+    "per",
+    "serials"
+  ],
+  "components": {
+    "oocihm.8_04178_69.14": {
+      "canonicalMaster": "oocihm.8_04178_69/data/sip/data/files/oocihm.8_04178_69.0014.tif",
+      "label": "p. 13"
+    },
+    "oocihm.8_04178_69.1": {
+      "label": "technical data sheet",
+      "canonicalMaster": "oocihm.8_04178_69/data/sip/data/files/oocihm.8_04178_69.0001.tif"
+    },
+    "oocihm.8_04178_69.15": {
+      "label": "p. 14",
+      "canonicalMaster": "oocihm.8_04178_69/data/sip/data/files/oocihm.8_04178_69.0015.tif"
+    },
+    "oocihm.8_04178_69.6": {
+      "label": "p. 5",
+      "canonicalMaster": "oocihm.8_04178_69/data/sip/data/files/oocihm.8_04178_69.0006.tif"
+    },
+    "oocihm.8_04178_69.9": {
+      "canonicalMaster": "oocihm.8_04178_69/data/sip/data/files/oocihm.8_04178_69.0009.tif",
+      "label": "p. 8"
+    },
+    "oocihm.8_04178_69.2": {
+      "canonicalMaster": "oocihm.8_04178_69/data/sip/data/files/oocihm.8_04178_69.0002.tif",
+      "label": "p. 1"
+    },
+    "oocihm.8_04178_69.7": {
+      "label": "p. 6",
+      "canonicalMaster": "oocihm.8_04178_69/data/sip/data/files/oocihm.8_04178_69.0007.tif"
+    },
+    "oocihm.8_04178_69.17": {
+      "label": "advertisement (p. 16)",
+      "canonicalMaster": "oocihm.8_04178_69/data/sip/data/files/oocihm.8_04178_69.0017.tif"
+    },
+    "oocihm.8_04178_69.10": {
+      "label": "p. 9",
+      "canonicalMaster": "oocihm.8_04178_69/data/sip/data/files/oocihm.8_04178_69.0010.tif"
+    },
+    "oocihm.8_04178_69.5": {
+      "canonicalMaster": "oocihm.8_04178_69/data/sip/data/files/oocihm.8_04178_69.0005.tif",
+      "label": "p. 4"
+    },
+    "oocihm.8_04178_69.8": {
+      "canonicalMaster": "oocihm.8_04178_69/data/sip/data/files/oocihm.8_04178_69.0008.tif",
+      "label": "p. 7"
+    },
+    "oocihm.8_04178_69.16": {
+      "canonicalMaster": "oocihm.8_04178_69/data/sip/data/files/oocihm.8_04178_69.0016.tif",
+      "label": "p. 15"
+    },
+    "oocihm.8_04178_69.4": {
+      "canonicalMaster": "oocihm.8_04178_69/data/sip/data/files/oocihm.8_04178_69.0004.tif",
+      "label": "p. 3"
+    },
+    "oocihm.8_04178_69.11": {
+      "canonicalMaster": "oocihm.8_04178_69/data/sip/data/files/oocihm.8_04178_69.0011.tif",
+      "label": "p. 10"
+    },
+    "oocihm.8_04178_69.12": {
+      "canonicalMaster": "oocihm.8_04178_69/data/sip/data/files/oocihm.8_04178_69.0012.tif",
+      "label": "p. 11"
+    },
+    "oocihm.8_04178_69.3": {
+      "canonicalMaster": "oocihm.8_04178_69/data/sip/data/files/oocihm.8_04178_69.0003.tif",
+      "label": "p. 2"
+    },
+    "oocihm.8_04178_69.13": {
+      "canonicalMaster": "oocihm.8_04178_69/data/sip/data/files/oocihm.8_04178_69.0013.tif",
+      "label": "p. 12"
+    }
+  },
+  "pkey": "oocihm.8_04178",
+  "updated": "2017-02-15T16:07:00Z",
+  "canonicalDownloadMime": "application/pdf",
+  "pu": [
+    "New York : Murray Hill Pub. Co., [1881]"
+  ],
+  "key": "oocihm.8_04178_69",
+  "plabel": "Dr. Foote's health monthly",
+  "ti": [
+    "Dr. Foote's health monthly [Vol. 6, no. 9 (Sept. 1881)]"
+  ],
+  "canonicalDownload": "oocihm.8_04178_69/data/sip/data/files/oocihm.8_04178_69.pdf",
+  "repos": [
+    "vbc",
+    "toma",
+    "romano",
+    "paneer",
+    "kernhem",
+    "brie"
+  ],
+  "no_source": [
+    "Library and Archives Canada."
+  ],
+  "order": [
+    "oocihm.8_04178_69.1",
+    "oocihm.8_04178_69.2",
+    "oocihm.8_04178_69.3",
+    "oocihm.8_04178_69.4",
+    "oocihm.8_04178_69.5",
+    "oocihm.8_04178_69.6",
+    "oocihm.8_04178_69.7",
+    "oocihm.8_04178_69.8",
+    "oocihm.8_04178_69.9",
+    "oocihm.8_04178_69.10",
+    "oocihm.8_04178_69.11",
+    "oocihm.8_04178_69.12",
+    "oocihm.8_04178_69.13",
+    "oocihm.8_04178_69.14",
+    "oocihm.8_04178_69.15",
+    "oocihm.8_04178_69.16",
+    "oocihm.8_04178_69.17"
+  ]
+}

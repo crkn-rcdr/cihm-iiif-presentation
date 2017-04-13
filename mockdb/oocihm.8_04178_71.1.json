@@ -1,0 +1,18 @@
+{
+  "_id": "oocihm.8_04178_71.1",
+  "_rev": "10-4002d03cc2668d218c879a273f02e76a",
+  "canonicalUri": "http://eco.canadiana.ca/view/oocihm.8_04178_71.1",
+  "type": "page",
+  "canonicalMaster": "oocihm.8_04178_71/data/sip/data/files/oocihm.8_04178_71.0001.tif",
+  "key": "oocihm.8_04178_71.1",
+  "seq": "1",
+  "lang": [
+    "eng"
+  ],
+  "label": "technical data sheet",
+  "identifier": [
+    "8_04178_71.1"
+  ],
+  "pkey": "oocihm.8_04178_71",
+  "canonicalMasterMime": "image/tiff"
+}

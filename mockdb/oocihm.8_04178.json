@@ -1,0 +1,77 @@
+{
+  "_id": "oocihm.8_04178",
+  "_rev": "15-618e3c4dc54ef0359b9dfd5a975a4011",
+  "ti": [
+    "Dr. Foote's health monthly ."
+  ],
+  "no": [
+    "Title from caption.",
+    "Title from title screen.",
+    "Includes advertising matter.",
+    "Issues reproduced: Vol. 6, no. 9 (Sept. 1881)-v. 6, no. 11 (Nov. 1881); v. 7, no. 1 (Jan. 1882)",
+    "This title began printing in Canada in Sept. 1881 in order to avoid postal restrictions placed on it, and other controversial periodicals in the United States, under the Comstock laws.",
+    "Description based on: Vol. 6, no. 9 (Sept. 1881)",
+    "v. ; 27 cm."
+  ],
+  "items": {
+    "oocihm.8_04178_69": {
+      "pubmin": "1881-01-01T00:00:00.000Z",
+      "label": "[Vol. 6, no. 9 (Sept. 1881)]"
+    },
+    "oocihm.8_04178_70": {
+      "pubmin": "1881-01-01T00:00:00.000Z",
+      "label": "[Vol. 6, no. 10 (Oct. 1881)]"
+    },
+    "oocihm.8_04178_71": {
+      "pubmin": "1881-01-01T00:00:00.000Z",
+      "label": "[Vol. 6, no. 11 (Nov. 1881)]"
+    },
+    "oocihm.8_04178_73": {
+      "pubmin": "1882-01-01T00:00:00.000Z",
+      "label": "[Vol. 7, no. 1 (Jan. 1882)]"
+    }
+  },
+  "order": [
+    "oocihm.8_04178_69",
+    "oocihm.8_04178_70",
+    "oocihm.8_04178_71",
+    "oocihm.8_04178_73"
+  ],
+  "repos": [
+    "vbc",
+    "toma",
+    "romano",
+    "paneer",
+    "kernhem",
+    "brie"
+  ],
+  "updated": "2017-02-15T16:16:31Z",
+  "pu": [
+    "New York : Murray Hill Pub. Co., [1876?-18-- or 19--] (Whitby, Ont. : J.S. Robertson)"
+  ],
+  "key": "oocihm.8_04178",
+  "collection": [
+    "hmd",
+    "per",
+    "eco",
+    "serials",
+    "online"
+  ],
+  "identifier": [
+    "8_04178"
+  ],
+  "canonicalUri": "http://eco.canadiana.ca/view/oocihm.8_04178",
+  "su": [
+    "Medicine, Popular -- Periodicals.",
+    "Health -- Periodicals.",
+    "Freedom of speech -- United States -- History.",
+    "Médecine -- Ouvrages de vulgarisation -- Périodiques.",
+    "Santé -- Périodiques.",
+    "Liberté d'expression -- États-Unis -- Histoire."
+  ],
+  "label": "Dr. Foote's health monthly",
+  "lang": [
+    "eng"
+  ],
+  "type": "series"
+}

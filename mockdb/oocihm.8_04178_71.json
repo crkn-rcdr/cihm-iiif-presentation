@@ -1,0 +1,133 @@
+{
+  "_id": "oocihm.8_04178_71",
+  "_rev": "10-ec26c72f43ef6b7903c382b60d986c86",
+  "collection": [
+    "eco",
+    "hmd",
+    "online",
+    "per",
+    "serials"
+  ],
+  "pkey": "oocihm.8_04178",
+  "components": {
+    "oocihm.8_04178_71.10": {
+      "label": "p. 9",
+      "canonicalMaster": "oocihm.8_04178_71/data/sip/data/files/oocihm.8_04178_71.0010.tif"
+    },
+    "oocihm.8_04178_71.8": {
+      "canonicalMaster": "oocihm.8_04178_71/data/sip/data/files/oocihm.8_04178_71.0008.tif",
+      "label": "p. 7"
+    },
+    "oocihm.8_04178_71.3": {
+      "canonicalMaster": "oocihm.8_04178_71/data/sip/data/files/oocihm.8_04178_71.0003.tif",
+      "label": "p. 2"
+    },
+    "oocihm.8_04178_71.13": {
+      "label": "advertisement (p. 12)",
+      "canonicalMaster": "oocihm.8_04178_71/data/sip/data/files/oocihm.8_04178_71.0013.tif"
+    },
+    "oocihm.8_04178_71.5": {
+      "canonicalMaster": "oocihm.8_04178_71/data/sip/data/files/oocihm.8_04178_71.0005.tif",
+      "label": "p. 4"
+    },
+    "oocihm.8_04178_71.17": {
+      "canonicalMaster": "oocihm.8_04178_71/data/sip/data/files/oocihm.8_04178_71.0017.tif",
+      "label": "advertisement (p. 16)"
+    },
+    "oocihm.8_04178_71.14": {
+      "label": "p. 13",
+      "canonicalMaster": "oocihm.8_04178_71/data/sip/data/files/oocihm.8_04178_71.0014.tif"
+    },
+    "oocihm.8_04178_71.9": {
+      "label": "p. 8",
+      "canonicalMaster": "oocihm.8_04178_71/data/sip/data/files/oocihm.8_04178_71.0009.tif"
+    },
+    "oocihm.8_04178_71.6": {
+      "label": "p. 5",
+      "canonicalMaster": "oocihm.8_04178_71/data/sip/data/files/oocihm.8_04178_71.0006.tif"
+    },
+    "oocihm.8_04178_71.12": {
+      "canonicalMaster": "oocihm.8_04178_71/data/sip/data/files/oocihm.8_04178_71.0012.tif",
+      "label": "p. 11"
+    },
+    "oocihm.8_04178_71.1": {
+      "canonicalMaster": "oocihm.8_04178_71/data/sip/data/files/oocihm.8_04178_71.0001.tif",
+      "label": "technical data sheet"
+    },
+    "oocihm.8_04178_71.15": {
+      "label": "p. 14",
+      "canonicalMaster": "oocihm.8_04178_71/data/sip/data/files/oocihm.8_04178_71.0015.tif"
+    },
+    "oocihm.8_04178_71.16": {
+      "canonicalMaster": "oocihm.8_04178_71/data/sip/data/files/oocihm.8_04178_71.0016.tif",
+      "label": "advertisement (p. 15)"
+    },
+    "oocihm.8_04178_71.7": {
+      "canonicalMaster": "oocihm.8_04178_71/data/sip/data/files/oocihm.8_04178_71.0007.tif",
+      "label": "advertisement (p. 6)"
+    },
+    "oocihm.8_04178_71.11": {
+      "canonicalMaster": "oocihm.8_04178_71/data/sip/data/files/oocihm.8_04178_71.0011.tif",
+      "label": "p. 10"
+    },
+    "oocihm.8_04178_71.4": {
+      "label": "p. 3",
+      "canonicalMaster": "oocihm.8_04178_71/data/sip/data/files/oocihm.8_04178_71.0004.tif"
+    },
+    "oocihm.8_04178_71.2": {
+      "label": "p. 1",
+      "canonicalMaster": "oocihm.8_04178_71/data/sip/data/files/oocihm.8_04178_71.0002.tif"
+    }
+  },
+  "identifier": [
+    "8_04178_71"
+  ],
+  "canonicalUri": "http://eco.canadiana.ca/view/oocihm.8_04178_71",
+  "label": "[Vol. 6, no. 11 (Nov. 1881)]",
+  "lang": [
+    "eng"
+  ],
+  "type": "document",
+  "seq": "71",
+  "canonicalDownload": "oocihm.8_04178_71/data/sip/data/files/oocihm.8_04178_71.pdf",
+  "plabel": "Dr. Foote's health monthly",
+  "ti": [
+    "Dr. Foote's health monthly [Vol. 6, no. 11 (Nov. 1881)]"
+  ],
+  "no_source": [
+    "Library and Archives Canada."
+  ],
+  "order": [
+    "oocihm.8_04178_71.1",
+    "oocihm.8_04178_71.2",
+    "oocihm.8_04178_71.3",
+    "oocihm.8_04178_71.4",
+    "oocihm.8_04178_71.5",
+    "oocihm.8_04178_71.6",
+    "oocihm.8_04178_71.7",
+    "oocihm.8_04178_71.8",
+    "oocihm.8_04178_71.9",
+    "oocihm.8_04178_71.10",
+    "oocihm.8_04178_71.11",
+    "oocihm.8_04178_71.12",
+    "oocihm.8_04178_71.13",
+    "oocihm.8_04178_71.14",
+    "oocihm.8_04178_71.15",
+    "oocihm.8_04178_71.16",
+    "oocihm.8_04178_71.17"
+  ],
+  "repos": [
+    "vbc",
+    "toma",
+    "romano",
+    "paneer",
+    "kernhem",
+    "brie"
+  ],
+  "canonicalDownloadMime": "application/pdf",
+  "updated": "2017-02-15T16:07:01Z",
+  "pu": [
+    "New York : Murray Hill Pub. Co., [1881]"
+  ],
+  "key": "oocihm.8_04178_71"
+}

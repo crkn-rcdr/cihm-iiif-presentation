@@ -1,0 +1,133 @@
+{
+  "_id": "oocihm.8_04178_70",
+  "_rev": "9-3836d043ad7b96253d29dc944ce9c39e",
+  "plabel": "Dr. Foote's health monthly",
+  "ti": [
+    "Dr. Foote's health monthly [Vol. 6, no. 10 (Oct. 1881)]"
+  ],
+  "canonicalDownload": "oocihm.8_04178_70/data/sip/data/files/oocihm.8_04178_70.pdf",
+  "repos": [
+    "vbc",
+    "toma",
+    "romano",
+    "paneer",
+    "kernhem",
+    "brie"
+  ],
+  "order": [
+    "oocihm.8_04178_70.1",
+    "oocihm.8_04178_70.2",
+    "oocihm.8_04178_70.3",
+    "oocihm.8_04178_70.4",
+    "oocihm.8_04178_70.5",
+    "oocihm.8_04178_70.6",
+    "oocihm.8_04178_70.7",
+    "oocihm.8_04178_70.8",
+    "oocihm.8_04178_70.9",
+    "oocihm.8_04178_70.10",
+    "oocihm.8_04178_70.11",
+    "oocihm.8_04178_70.12",
+    "oocihm.8_04178_70.13",
+    "oocihm.8_04178_70.14",
+    "oocihm.8_04178_70.15",
+    "oocihm.8_04178_70.16",
+    "oocihm.8_04178_70.17"
+  ],
+  "no_source": [
+    "Library and Archives Canada."
+  ],
+  "updated": "2017-02-15T16:07:01Z",
+  "canonicalDownloadMime": "application/pdf",
+  "pu": [
+    "New York : Murray Hill Pub. Co., [1881]"
+  ],
+  "key": "oocihm.8_04178_70",
+  "identifier": [
+    "8_04178_70"
+  ],
+  "collection": [
+    "eco",
+    "hmd",
+    "online",
+    "per",
+    "serials"
+  ],
+  "components": {
+    "oocihm.8_04178_70.5": {
+      "label": "p. 4",
+      "canonicalMaster": "oocihm.8_04178_70/data/sip/data/files/oocihm.8_04178_70.0005.tif"
+    },
+    "oocihm.8_04178_70.17": {
+      "label": "advertisement (p. 16)",
+      "canonicalMaster": "oocihm.8_04178_70/data/sip/data/files/oocihm.8_04178_70.0017.tif"
+    },
+    "oocihm.8_04178_70.14": {
+      "label": "p. 13",
+      "canonicalMaster": "oocihm.8_04178_70/data/sip/data/files/oocihm.8_04178_70.0014.tif"
+    },
+    "oocihm.8_04178_70.4": {
+      "canonicalMaster": "oocihm.8_04178_70/data/sip/data/files/oocihm.8_04178_70.0004.tif",
+      "label": "p. 3"
+    },
+    "oocihm.8_04178_70.8": {
+      "label": "p. 7",
+      "canonicalMaster": "oocihm.8_04178_70/data/sip/data/files/oocihm.8_04178_70.0008.tif"
+    },
+    "oocihm.8_04178_70.9": {
+      "label": "p. 8",
+      "canonicalMaster": "oocihm.8_04178_70/data/sip/data/files/oocihm.8_04178_70.0009.tif"
+    },
+    "oocihm.8_04178_70.13": {
+      "label": "advertisement (p. 12)",
+      "canonicalMaster": "oocihm.8_04178_70/data/sip/data/files/oocihm.8_04178_70.0013.tif"
+    },
+    "oocihm.8_04178_70.16": {
+      "canonicalMaster": "oocihm.8_04178_70/data/sip/data/files/oocihm.8_04178_70.0016.tif",
+      "label": "advertisement (p. 15)"
+    },
+    "oocihm.8_04178_70.10": {
+      "canonicalMaster": "oocihm.8_04178_70/data/sip/data/files/oocihm.8_04178_70.0010.tif",
+      "label": "p. 9"
+    },
+    "oocihm.8_04178_70.11": {
+      "label": "p. 10",
+      "canonicalMaster": "oocihm.8_04178_70/data/sip/data/files/oocihm.8_04178_70.0011.tif"
+    },
+    "oocihm.8_04178_70.1": {
+      "label": "technical data sheet",
+      "canonicalMaster": "oocihm.8_04178_70/data/sip/data/files/oocihm.8_04178_70.0001.tif"
+    },
+    "oocihm.8_04178_70.2": {
+      "canonicalMaster": "oocihm.8_04178_70/data/sip/data/files/oocihm.8_04178_70.0002.tif",
+      "label": "p. 1"
+    },
+    "oocihm.8_04178_70.12": {
+      "label": "p. 11",
+      "canonicalMaster": "oocihm.8_04178_70/data/sip/data/files/oocihm.8_04178_70.0012.tif"
+    },
+    "oocihm.8_04178_70.7": {
+      "canonicalMaster": "oocihm.8_04178_70/data/sip/data/files/oocihm.8_04178_70.0007.tif",
+      "label": "advertisement (p. 6)"
+    },
+    "oocihm.8_04178_70.6": {
+      "label": "p. 5",
+      "canonicalMaster": "oocihm.8_04178_70/data/sip/data/files/oocihm.8_04178_70.0006.tif"
+    },
+    "oocihm.8_04178_70.15": {
+      "label": "p. 14",
+      "canonicalMaster": "oocihm.8_04178_70/data/sip/data/files/oocihm.8_04178_70.0015.tif"
+    },
+    "oocihm.8_04178_70.3": {
+      "label": "p. 2",
+      "canonicalMaster": "oocihm.8_04178_70/data/sip/data/files/oocihm.8_04178_70.0003.tif"
+    }
+  },
+  "pkey": "oocihm.8_04178",
+  "canonicalUri": "http://eco.canadiana.ca/view/oocihm.8_04178_70",
+  "seq": "70",
+  "type": "document",
+  "label": "[Vol. 6, no. 10 (Oct. 1881)]",
+  "lang": [
+    "eng"
+  ]
+}

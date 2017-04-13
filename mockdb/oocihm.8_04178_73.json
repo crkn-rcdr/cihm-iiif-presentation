@@ -1,0 +1,133 @@
+{
+  "_id": "oocihm.8_04178_73",
+  "_rev": "9-8abbb3381410f93333006a666f8dc9fb",
+  "seq": "73",
+  "type": "document",
+  "lang": [
+    "eng"
+  ],
+  "label": "[Vol. 7, no. 1 (Jan. 1882)]",
+  "canonicalUri": "http://eco.canadiana.ca/view/oocihm.8_04178_73",
+  "identifier": [
+    "8_04178_73"
+  ],
+  "components": {
+    "oocihm.8_04178_73.9": {
+      "label": "p. 8",
+      "canonicalMaster": "oocihm.8_04178_73/data/sip/data/files/oocihm.8_04178_73.0009.tif"
+    },
+    "oocihm.8_04178_73.5": {
+      "label": "p. 4",
+      "canonicalMaster": "oocihm.8_04178_73/data/sip/data/files/oocihm.8_04178_73.0005.tif"
+    },
+    "oocihm.8_04178_73.6": {
+      "canonicalMaster": "oocihm.8_04178_73/data/sip/data/files/oocihm.8_04178_73.0006.tif",
+      "label": "p. 5"
+    },
+    "oocihm.8_04178_73.3": {
+      "label": "p. 2",
+      "canonicalMaster": "oocihm.8_04178_73/data/sip/data/files/oocihm.8_04178_73.0003.tif"
+    },
+    "oocihm.8_04178_73.8": {
+      "canonicalMaster": "oocihm.8_04178_73/data/sip/data/files/oocihm.8_04178_73.0008.tif",
+      "label": "p. 7"
+    },
+    "oocihm.8_04178_73.16": {
+      "canonicalMaster": "oocihm.8_04178_73/data/sip/data/files/oocihm.8_04178_73.0016.tif",
+      "label": "advertisement (p. 15)"
+    },
+    "oocihm.8_04178_73.12": {
+      "label": "p. 11",
+      "canonicalMaster": "oocihm.8_04178_73/data/sip/data/files/oocihm.8_04178_73.0012.tif"
+    },
+    "oocihm.8_04178_73.2": {
+      "label": "p. 1",
+      "canonicalMaster": "oocihm.8_04178_73/data/sip/data/files/oocihm.8_04178_73.0002.tif"
+    },
+    "oocihm.8_04178_73.13": {
+      "label": "p. 12",
+      "canonicalMaster": "oocihm.8_04178_73/data/sip/data/files/oocihm.8_04178_73.0013.tif"
+    },
+    "oocihm.8_04178_73.10": {
+      "label": "p. 9",
+      "canonicalMaster": "oocihm.8_04178_73/data/sip/data/files/oocihm.8_04178_73.0010.tif"
+    },
+    "oocihm.8_04178_73.4": {
+      "label": "p. 3",
+      "canonicalMaster": "oocihm.8_04178_73/data/sip/data/files/oocihm.8_04178_73.0004.tif"
+    },
+    "oocihm.8_04178_73.15": {
+      "canonicalMaster": "oocihm.8_04178_73/data/sip/data/files/oocihm.8_04178_73.0015.tif",
+      "label": "advertisement (p. 14)"
+    },
+    "oocihm.8_04178_73.1": {
+      "label": "technical data sheet",
+      "canonicalMaster": "oocihm.8_04178_73/data/sip/data/files/oocihm.8_04178_73.0001.tif"
+    },
+    "oocihm.8_04178_73.14": {
+      "label": "p. 13",
+      "canonicalMaster": "oocihm.8_04178_73/data/sip/data/files/oocihm.8_04178_73.0014.tif"
+    },
+    "oocihm.8_04178_73.11": {
+      "label": "p. 10",
+      "canonicalMaster": "oocihm.8_04178_73/data/sip/data/files/oocihm.8_04178_73.0011.tif"
+    },
+    "oocihm.8_04178_73.7": {
+      "label": "advertisement (p. 6)",
+      "canonicalMaster": "oocihm.8_04178_73/data/sip/data/files/oocihm.8_04178_73.0007.tif"
+    },
+    "oocihm.8_04178_73.17": {
+      "label": "advertisement (p. 16)",
+      "canonicalMaster": "oocihm.8_04178_73/data/sip/data/files/oocihm.8_04178_73.0017.tif"
+    }
+  },
+  "pkey": "oocihm.8_04178",
+  "collection": [
+    "eco",
+    "hmd",
+    "online",
+    "per",
+    "serials"
+  ],
+  "key": "oocihm.8_04178_73",
+  "pu": [
+    "New York : Murray Hill Pub. Co., [1882]"
+  ],
+  "updated": "2017-02-15T16:07:02Z",
+  "canonicalDownloadMime": "application/pdf",
+  "repos": [
+    "vbc",
+    "toma",
+    "romano",
+    "paneer",
+    "kernhem",
+    "brie"
+  ],
+  "no_source": [
+    "Library and Archives Canada."
+  ],
+  "order": [
+    "oocihm.8_04178_73.1",
+    "oocihm.8_04178_73.2",
+    "oocihm.8_04178_73.3",
+    "oocihm.8_04178_73.4",
+    "oocihm.8_04178_73.5",
+    "oocihm.8_04178_73.6",
+    "oocihm.8_04178_73.7",
+    "oocihm.8_04178_73.8",
+    "oocihm.8_04178_73.9",
+    "oocihm.8_04178_73.10",
+    "oocihm.8_04178_73.11",
+    "oocihm.8_04178_73.12",
+    "oocihm.8_04178_73.13",
+    "oocihm.8_04178_73.14",
+    "oocihm.8_04178_73.15",
+    "oocihm.8_04178_73.16",
+    "oocihm.8_04178_73.17"
+  ],
+  "ti": [
+    "Dr. Foote's health monthly [Vol. 7, no. 1 (Jan. 1882)]"
+  ],
+  "plabel": "Dr. Foote's health monthly",
+  "canonicalDownload": "oocihm.8_04178_73/data/sip/data/files/oocihm.8_04178_73.pdf"
+}
