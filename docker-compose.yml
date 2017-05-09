@@ -1,6 +1,6 @@
 version: "3"
 
 services:
-  iiifp:
-    image: iiifp:latest
+  cihm-iiif-presentation:
+    image: cihm-iiif-presentation:latest
     command: yarn run start
