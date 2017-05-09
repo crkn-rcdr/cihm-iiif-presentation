@@ -15,6 +15,7 @@
     "testEnvironment": "node"
   },
   "dependencies": {
+    "kcors": "^2.2.1",
     "koa": "^2.2.0",
     "koa-json-error": "^3.1.2",
     "koa-route": "^3.2.0",

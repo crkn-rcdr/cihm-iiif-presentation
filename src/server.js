@@ -5,6 +5,7 @@ const iiifiEndpoint = env.requireUrl('IIIFI_ENDPOINT');
 const Koa = require('koa');
 const router = require('koa-route');
 const error = require('koa-json-error');
+const cors = require('kcors');
 
 const Manifest = require('./iiif/Manifest');
 const Sequence = require('./iiif/Sequence');
@@ -12,6 +13,8 @@ const Canvas = require('./iiif/Canvas');
 const Image = require('./iiif/Image');
 
 const app = new Koa();
+
+app.use(cors({ origin: '*' }));
 
 app.use(router.get('/', async (ctx) => {
   ctx.body = {
