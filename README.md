@@ -1,6 +1,6 @@
 # cihm-iiif-presentation
 
-cihm-iiif-presentation is a web service providing the [IIIF Presentation API v2.1][http://iiif.io/api/presentation/2.1/] for Canadiana content.
+cihm-iiif-presentation is a web service providing the [IIIF Presentation API v2.1](http://iiif.io/api/presentation/2.1/) for Canadiana content.
 
 ## Configuration
 
