@@ -28,14 +28,14 @@ module.exports = class Image extends Entity {
     retval.resource = {
       '@id': [imageEndpoint, qs.escape(data.canonicalMaster), 'full', 'full', '0', 'default.jpg'].join('/'),
       '@type': 'dctypes:Image',
-      height: `${data.canonicalMasterHeight}px`,
-      width: `${data.canonicalMasterWidth}px`,
       service: {
         "@context": "http://iiif.io/api/image/2/context.json",
         "@id": [imageEndpoint, qs.escape(data.canonicalMaster)].join('/'),
         "profile": "http://iiif.io/api/image/2/profiles/level2.json"
       }
     };
+    if (data.canonicalMasterHeight) retval.resource.height = `${data.canonicalMasterHeight}px`;
+    if (data.canonicalMasterWidth) retval.resource.width = `${data.canonicalMasterWidth}px`;
     retval.on = [this.endpoint, this.itemId, 'canvas', this.componentId].join('/');
 
     return retval;
