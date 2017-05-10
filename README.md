@@ -33,6 +33,7 @@ A similar file for a production build, which does not allow for code watching:
           COPRESENTATION_ENDPOINT: <path to copresentation db>
           IIIFI_ENDPOINT: <path to IIIF Image server>
           SELF_ENDPOINT: <path to this server, with prefix>
+          NODE_ENV: production
         ports:
           - "3000:3000"
 
