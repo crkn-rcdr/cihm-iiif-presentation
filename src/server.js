@@ -1,7 +1,3 @@
-const env = require('require-env');
-const copresentationEndpoint = env.requireUrl('COPRESENTATION_ENDPOINT');
-const iiifiEndpoint = env.requireUrl('IIIFI_ENDPOINT');
-
 const Koa = require('koa');
 const router = require('koa-route');
 const error = require('koa-json-error');
