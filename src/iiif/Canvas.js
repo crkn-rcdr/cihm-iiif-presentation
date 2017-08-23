@@ -22,8 +22,8 @@ module.exports = class Canvas extends Entity {
     retval['@id'] = [this.endpoint, this.itemId, 'canvas', this.componentId].join('/');
     retval['@type'] = 'sc:Canvas';
     retval.label = data.label;
-    if (data.canonicalMasterHeight) retval.height = data.canonicalMasterHeight;
-    if (data.canonicalMasterWidth) retval.width = data.canonicalMasterWidth;
+    if (data.canonicalMasterHeight) retval.height = parseInt(data.canonicalMasterHeight, 10);
+    if (data.canonicalMasterWidth) retval.width = parseInt(data.canonicalMasterWidth, 10);
     retval.images = [ (new Image(data, { noContext: true })).representation() ];
 
     return retval;
