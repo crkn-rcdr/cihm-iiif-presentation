@@ -34,8 +34,8 @@ module.exports = class Image extends Entity {
         "profile": "http://iiif.io/api/image/2/profiles/level2.json"
       }
     };
-    if (data.canonicalMasterHeight) retval.resource.height = `${data.canonicalMasterHeight}px`;
-    if (data.canonicalMasterWidth) retval.resource.width = `${data.canonicalMasterWidth}px`;
+    if (data.canonicalMasterHeight) retval.resource.height = parseInt(data.canonicalMasterHeight, 10);
+    if (data.canonicalMasterWidth) retval.resource.width = parseInt(data.canonicalMasterWidth, 10);
     retval.on = [this.endpoint, this.itemId, 'canvas', this.componentId].join('/');
 
     return retval;
