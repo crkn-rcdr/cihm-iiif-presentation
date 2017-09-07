@@ -14,7 +14,7 @@ module.exports = class Image extends Entity {
   }
 
   static fetch(id) {
-    return (new Image(id))._fetchFromComponent();
+    return (new Image(id))._fetchFromType('component');
   }
 
   representation(options) {

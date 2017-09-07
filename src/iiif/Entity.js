@@ -3,6 +3,12 @@ const endpoint = env.requireUrl('SELF_ENDPOINT').href;
 
 const COPresentationDocument = require('../copresentation/document');
 
+const copTypes = {
+  collection: 'series',
+  item: 'document',
+  component: 'page'
+};
+
 module.exports = class Entity {
   constructor(argument, options) {
     if (typeof argument === 'string') {
@@ -27,32 +33,18 @@ module.exports = class Entity {
     return this;
   }
 
-  async _fetchFromItem() {
+  async _fetchFromType(type) {
     await this._fetch();
-    if (!this.isFromItem()) {
+    if (!this.hasType(type)) {
       this.status = 404;
-      this.error = `${this.id} is not a COPresentation item`;
+      this.error = `${this.id} is not a COPresentation ${type}`;
     }
 
     return this;
   }
 
-  isFromItem() {
-    return !!this.doc && this.doc.type === 'document';
-  }
-
-  async _fetchFromComponent() {
-    await this._fetch();
-    if (!this.isFromComponent()) {
-      this.status = 404;
-      this.error = `${this.id} is not a COPresentation component`;
-    }
-
-    return this;
-  }
-
-  isFromComponent() {
-    return !!this.doc && this.doc.type === 'page';
+  hasType(type) {
+    return !!this.doc && this.doc.type === copTypes[type];
   }
 
   representation() {

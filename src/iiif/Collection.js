@@ -1,5 +1,5 @@
 const Entity = require('./Entity');
-const Sequence = require('./Sequence');
+const Manifest = require('./Manifest');
 
 const cmrMetadataFields = [
   'au',
@@ -16,17 +16,16 @@ const cmrMetadataFields = [
   'depositor'
 ];
 
-function within(pkey, collections, endpoint) {
+function within(collections, endpoint) {
   let list = [];
   let collectionLink = (c) => { return [endpoint, 'collection', c].join('/'); }
-  if (pkey) list.push(collectionLink(pkey));
   if (collections) collections.forEach((c) => list.push(collectionLink(c)));
   return list;
 }
 
-module.exports = class Manifest extends Entity {
+module.exports = class Collection extends Entity {
   static fetch(id) {
-    return (new Manifest(id))._fetchFromType('item');
+    return (new Collection(id))._fetchFromType('collection');
   }
 
   representation() {
@@ -34,16 +33,23 @@ module.exports = class Manifest extends Entity {
 
     let data = this.doc;
     let retval = super.representation();
-    retval['@type'] = 'sc:Manifest';
-    retval['@id'] = [this.endpoint, this.id, 'manifest'].join('/');
-    retval.label = data.plabel ? [data.plabel, data.label].join(' : ') : data.label;
+    retval['@type'] = 'sc:Collection';
+    retval['@id'] = [this.endpoint, this.id, 'collection'].join('/');
+    retval.label = data.label;
     retval.metadata = cmrMetadataFields.reduce((list, field) => {
       if (data[field]) list.push({ label: field, value: data[field] });
       return list;
     }, []);
     if (data.ab) retval.description = data.ab.join(' ');
-    if (data.pkey || data.collection) retval.within = within(data.pkey, data.collection, this.endpoint);
-    retval.sequences = [ (new Sequence(data, { noContext: true })).representation() ];
+    if (data.collection) retval.within = within(data.collection, this.endpoint);
+    retval.manifests = data.order.map((id) => {
+      let item = data.items[id];
+      return {
+        '@id': [this.endpoint, id, 'manifest'].join('/'),
+        '@type': 'sc:Manifest',
+        label: item.label
+      };
+    });
 
     return retval;
   }

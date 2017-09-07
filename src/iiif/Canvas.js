@@ -11,7 +11,7 @@ module.exports = class Canvas extends Entity {
   }
 
   static fetch(id) {
-    return (new Canvas(id))._fetchFromComponent();
+    return (new Canvas(id)).fetchFromType('component');
   }
 
   representation(options) {

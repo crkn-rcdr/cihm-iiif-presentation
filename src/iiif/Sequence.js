@@ -3,7 +3,7 @@ const Canvas = require('./Canvas');
 
 module.exports = class Sequence extends Entity {
   static fetch(id) {
-    return (new Sequence(id))._fetchFromItem();
+    return (new Sequence(id))._fetchFromType('item');
   }
 
   representation(options) {

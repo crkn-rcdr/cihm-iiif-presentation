@@ -3,6 +3,7 @@ const router = require('koa-route');
 const error = require('koa-json-error');
 const cors = require('kcors');
 
+const Collection = require('./iiif/Collection');
 const Manifest = require('./iiif/Manifest');
 const Sequence = require('./iiif/Sequence');
 const Canvas = require('./iiif/Canvas');
@@ -17,6 +18,15 @@ app.use(router.get('/', async (ctx) => {
     version: '2.1',
     documentation: 'http://iiif.io/api/presentation/2.1/'
   };
+}));
+
+app.use(router.get('/iiif/collection/:id', async (ctx, id) => {
+  let collection = await Collection.fetch(id);
+  if (collection.error) {
+    Object.assign(ctx, collection.errorContext());
+  } else {
+    ctx.body = collection.representation();
+  }
 }));
 
 app.use(router.get('/iiif/:id/manifest', async (ctx, id) => {
