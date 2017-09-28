@@ -34,7 +34,7 @@ module.exports = class Collection extends Entity {
     let data = this.doc;
     let retval = super.representation();
     retval['@type'] = 'sc:Collection';
-    retval['@id'] = [this.endpoint, this.id, 'collection'].join('/');
+    retval['@id'] = [this.endpoint, 'collection', this.id].join('/');
     retval.label = data.label;
     retval.metadata = cmrMetadataFields.reduce((list, field) => {
       if (data[field]) list.push({ label: field, value: data[field] });
