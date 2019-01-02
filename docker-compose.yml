@@ -1,6 +1,12 @@
 version: "3"
 
 services:
+  apache:
+    build: apache/.
+    image: presentation-apache:latest
+    ports:
+      - "80:80"
   cihm-iiif-presentation:
+    build: .
     image: cihm-iiif-presentation:latest
     command: yarn run start
